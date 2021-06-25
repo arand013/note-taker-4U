@@ -16,8 +16,7 @@ app.use(express.json());
 //Routes
 require("./routes/routes")(app);
 
-
-
+// Listener
 app.listen(PORT, () => {
     console.log("Listening on port " + PORT);
-}); 
+})
