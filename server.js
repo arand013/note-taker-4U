@@ -1,32 +1,36 @@
-const PORT = process.env.PORT || 3003;
 const fs = require('fs');
 const path = require('path');
-
 const express = require('express');
-const app = express();
-
 const allNotes = require('./db/db.json');
 
+console.log("allNotes", allNotes);
+
+const PORT = process.env.PORT || 3006;
+const app = express();
+
+//Middleware functions
+app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static('public'));
 
-app.get('/api/notes', (req, res) => {
+//Routes
+
+
+
+app.get('/api/notes/', (req, res) => {
     res.json(allNotes.slice(1));
-});
-
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, './public/index.html'));
+   
 });
 
 app.get('/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, './public/notes.html'));
+    res.sendFile(path.join(__dirname, '/public/notes.html'));
 });
 
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, './public/index.html'));
+    res.sendFile(path.join(__dirname, '/public/index.html'));
 });
 
+// Functions
 function createNewNote(body, notesArray) {
     const newNote = body;
     if (!Array.isArray(notesArray))
@@ -41,7 +45,7 @@ function createNewNote(body, notesArray) {
     notesArray.push(newNote);
     fs.writeFileSync(
         path.join(__dirname, './db/db.json'),
-        JSON.stringify(notesArray, null, 2)
+        JSON.stringify({ notesArray }, null, 2)
     );
     return newNote;
 }
@@ -56,7 +60,7 @@ function deleteNote(id, notesArray) {
         let note = notesArray[i];
 
         if (note.id == id) {
-            notesArray.splice(i, 1);
+            notesArray.slice(i, 1);
             fs.writeFileSync(
                 path.join(__dirname, './db/db.json'),
                 JSON.stringify(notesArray, null, 2)
@@ -73,5 +77,5 @@ app.delete('/api/notes/:id', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`API server now on port ${PORT}!`);
+    console.log(`Congrats! Your Notes API server is on port ${PORT}!`);
 });
