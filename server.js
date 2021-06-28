@@ -15,11 +15,8 @@ app.use(express.json());
 
 //Routes
 
-
-
 app.get('/api/notes/', (req, res) => {
     res.json(allNotes.slice(1));
-   
 });
 
 app.get('/notes', (req, res) => {
