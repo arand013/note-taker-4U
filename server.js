@@ -5,7 +5,7 @@ const allNotes = require('./db/db.json');
 
 console.log("allNotes", allNotes);
 
-const PORT = process.env.PORT || 3006;
+const PORT = process.env.PORT || 3005;
 const app = express();
 
 //Middleware functions
@@ -50,12 +50,11 @@ function deleteNote(id, notesArray) {
         let note = notesArray[i];
 
         if (note.id == id) {
-            notesArray.slice(i, 1);
+            notesArray.splice(i, 1);
             fs.writeFileSync(
                 path.join(__dirname, './db/db.json'),
                 JSON.stringify(notesArray, null, 2)
             );
-
             break;
         }
     }

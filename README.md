@@ -43,14 +43,14 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 2. Now, in the note-taker-4U "cd" into the develop folder
 
-3. Run & Test by typing "node index.js" 
+3. Run & Test by typing "node server.js" 
 
-4. Answer the prompts that follow
+4. Open http://localhost:3006/
 
-5. On success a README.md will be generated.
+5. On success a personal note taker application will be generated on a server 4U !
 
 ## Contribution
-node index.js
+Node 
 <br>
 Express.js
 <br>
