@@ -45,7 +45,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 3. Run & Test by typing "node server.js" 
 
-4. Open http://localhost:3006/
+4. Open http://localhost:3005/
 
 5. On success a personal note taker application will be generated on a server 4U !
 
