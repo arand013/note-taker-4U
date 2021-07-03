@@ -33,15 +33,18 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 * [Questions](#questions)
 
 ## Installation
-1. Download it through Github
+1. Download files through Github
 
-2. Ensure npm and express is installed ( "npm -y install" and "npm i iexpress")
+2. npm and express packages utilized
+
 
 ## Usage
 
 1. Open terminal
 
-2. Now, in the note-taker-4U "cd" into the develop folder
+2. Now, navigate to note-taker-4U ("cd" into folder from terminal)
+
+2. Next, Ensure npm and express is installed ( "npm -y install" and "npm i express")
 
 3. Run & Test by typing "node server.js" 
 
@@ -49,12 +52,18 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 5. On success a personal note taker application will be generated on a server 4U !
 
+6. Enjoy your own personal notes application with memory of saved/deletable notes as well!
+
 ## Contribution
 Node 
 <br>
 Express.js
 <br>
 HTML
+<br>
+CSS
+<br>
+Javascript
 
 ## Tests & Video 
 Enter project testing information here.
