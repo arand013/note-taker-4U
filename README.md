@@ -44,17 +44,17 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 2. Now, navigate to note-taker-4U ("cd" into folder from terminal)
 
-2. Next, Ensure npm and express is installed ( "npm -y install" and "npm i express")
+3. Next, Ensure npm and express is installed ( "npm -y install" and "npm i express")
 
-3. Run & Test by typing "node server.js" 
+4. Run & Test by typing "node server.js" 
 
-4. Open http://localhost:3005/
+5. Open http://localhost:3005/
 
-5. On success a personal note taker application will be generated on a server 4U !
+6. On success a personal note taker application will be generated on a server 4U !
 
-6. Enjoy your own personal notes application with memory of saved/deletable notes as well!
+7. Enjoy your own personal notes application with memory of saved/deletable notes as well!
 
-7. OR Forget the steps and test live Link here: https://sheltered-garden-91137.herokuapp.com
+8. OR Forget the steps and test live Link here: https://sheltered-garden-91137.herokuapp.com
 
 ## Contribution
 Node 
