@@ -54,6 +54,8 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 6. Enjoy your own personal notes application with memory of saved/deletable notes as well!
 
+7. OR Forget the steps and test live Link here: https://sheltered-garden-91137.herokuapp.com
+
 ## Contribution
 Node 
 <br>
