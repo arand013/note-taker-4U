@@ -68,8 +68,6 @@ Javascript
 ## Tests & Video 
 Enter project testing information here.
 
-<iframe src="https://drive.google.com/file/d/1HA7gsx6DUjP1sxorhTAaQjeG5xV0u8Bp/preview" width="640" height="480"></iframe>
-
 <br>
 
 ![Note-Taker-4U live demo gif](https://user-images.githubusercontent.com/81955843/124349011-e8fc5280-dba1-11eb-942c-9367415f332a.gif)
@@ -77,8 +75,12 @@ Enter project testing information here.
 Screenshots: 
 
 <br>
-<img width="1440" alt="Screen Shot 2021-07-03 at 1 24 54 AM" src="https://user-images.githubusercontent.com/81955843/124348717-89ea0e00-dba0-11eb-8f47-56cc60e8d2a2.png">
 <img width="1440" alt="Screen Shot 2021-07-03 at 1 22 52 AM" src="https://user-images.githubusercontent.com/81955843/124348719-8c4c6800-dba0-11eb-9a2e-8dff39ce8d09.png">
+
+<br>
+<img width="1440" alt="Screen Shot 2021-07-03 at 1 24 54 AM" src="https://user-images.githubusercontent.com/81955843/124348717-89ea0e00-dba0-11eb-8f47-56cc60e8d2a2.png">
+
+<br>
 <img width="1440" alt="Screen Shot 2021-07-03 at 1 25 28 AM" src="https://user-images.githubusercontent.com/81955843/124348720-8d7d9500-dba0-11eb-89a9-c32af401ffcd.png">
 
 
